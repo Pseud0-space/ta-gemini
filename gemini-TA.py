@@ -57,6 +57,14 @@ if st.button("ANALYSE", use_container_width=True):
         'PSARl_0.02_0.2', 'PSARs_0.02_0.2'
     ]]
 
+    st.write("")
+    st.subheader(":orange[4 Months Close Price Plot]")
+    fig = go.Figure([go.Scatter(x=stock_data.index, y=stock_data['Close'])])
+    st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader(":green[Summary of Technical Indicators]")
+    st.table(last_day_summary)
+
     st.subheader(":green[Summary of Technical Indicators]")
     st.table(last_day_summary)
 
