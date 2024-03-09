@@ -12,7 +12,7 @@ import os
 
 load_dotenv()
 
-API_KEY=os.environ.get("PALM_API_KEY")
+API_KEY=os.environ.get("GOOGLE_API_KEY")
 genai.configure(api_key=API_KEY)
 
 st.image("./Images/report.png", width=200)
