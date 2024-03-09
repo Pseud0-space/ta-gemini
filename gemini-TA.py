@@ -1,12 +1,10 @@
 import matplotlib.pyplot as plt
-import pandas as pd
 import yfinance as yf
-import pandas_ta as ta
 import matplotlib.dates as mdates
 from datetime import datetime, timedelta
 import google.generativeai as genai
 import streamlit as st
-
+import plotly.graph_objects as go
 from dotenv import load_dotenv
 import os
 
