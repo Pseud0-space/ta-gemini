@@ -1,4 +1,4 @@
-# ta-gemini
+# Technical Analysis with Google Gemini
 Technical Analysis with Gemini
 
 ![image](https://github.com/Pseud0-space/ta-gemini/assets/82369913/50fd6ae8-a1c4-4c57-a87b-5a14953ab031)
